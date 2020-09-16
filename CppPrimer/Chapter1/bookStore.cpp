@@ -1,0 +1,29 @@
+#include <iostream>
+#include "D:/Cxc/MyCode/Code/CppPrimer/using.h"
+#include "D:\Cxc\MyCode\Code\CppPrimer\Chapter2\Sales_data.h"
+int main()
+{
+  Sales_data total;
+  if (read(cin, total))
+    {
+      Sales_data trans;
+      while(read(cin, trans))
+        {
+          if (total.isbn() == trans.isbn())
+            total.combine(trans);
+          else
+            {
+              print(cout, total);
+              total = trans;
+            }
+        }
+      print(cout, total);
+    }
+  else
+    {
+      cerr << "No Data?!" << endl;
+      return -1;
+    }
+  return 0;
+}
+

@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${default}",
+                "D:/C_My/Linux_Include/include/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.17763.0",
+            "intelliSenseMode": "gcc-x64",
+            "cStandard": "gnu99",
+            "cppStandard": "c++11"
+        }
+    ],
+    "version": 4
+}

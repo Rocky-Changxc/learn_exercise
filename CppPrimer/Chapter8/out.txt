@@ -1,0 +1,6 @@
+bookNo:01 unit_sold:24 revenue:60 avg_price:2.5
+bookNo:02 unit_sold:34 revenue:146 avg_price:4.29412
+bookNo:03 unit_sold:21 revenue:42 avg_price:2
+bookNo:01 unit_sold:24 revenue:60 avg_price:2.5
+bookNo:02 unit_sold:34 revenue:146 avg_price:4.29412
+bookNo:03 unit_sold:21 revenue:42 avg_price:2
